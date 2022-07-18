@@ -45,9 +45,12 @@ This application is provided in plain source code, therefore can be easily modif
 * Always check the [MD5](https://en.wikipedia.org/wiki/MD5) checksum of downloaded files.
 * This application will never ask you for Admin/SU privileges.
 
-Check MD5 checksum via cmd:
+Check MD5 and SHA256 checksums via cmd:
 ```
 certutil -hashfile Example.bat MD5
+```
+```
+certutil -hashfile Example.bat SHA256
 ```
 
 ## :pushpin: Credits
