@@ -6,7 +6,7 @@ This batch script, takes advantage of youtube-dl or any of it's forks and ffmpeg
 
 ## :pill: Version History
 * 0.2
-    * 07-01-2022 Public Release
+    * 07-18-2022 Public Release
 * 0.1
     * Initial Private Release
 
@@ -57,6 +57,6 @@ certutil -hashfile Example.bat SHA256
 I want to express my gratitude to both dev teams of [youtube-dl](https://github.com/ytdl-org/youtube-dl) and [ffmpeg](https://github.com/FFmpeg/FFmpeg) also the entire community, which work so hard to provide us with such amazing tools! Show them love by supporting their projects! Keep up the good work guys!
 
 ## :computer: Dev Notes
-Let's start with the most obvious question - why starlight, because it's my light at the end of the road. I'm a music freak, I love music, I love to discover new artists and can't live without music. There are two main reasons why I created [Starlight](https://github.com/IvoNexus/youtube-starlight), I travel to remote areas where internet is not available at all time, I know most streaming platforms provide an option for offline use well, yes and no, because some of them need verification from time to time, so I decided to take control in my hands. The second reason, most of the artists I listen are not that popular and are all over the place, put the subscription plans aside, I don't want to use 5 different platforms/applications to do the same thing, so here we are - I unify it.
+Let's start with the most obvious question - why starlight, because it's my light at the end of the road. I'm a music freak, I love music, I love to discover new artists and can't live without music. There are two main reasons why I created [Starlight](https://github.com/IvoNexus/youtube-starlight), I travel to remote areas where internet it's not available at all time, I know most streaming platforms provide an option for offline use well, yes and no, because some of them need verification from time to time, so I decided to take control in my hands. The second reason, most of the artists I listen are not that popular and are all over the place, put the subscription plans aside, I don't want to use 5 different platforms/applications to do the same thing, so here we are - I unify it.
 
 **Thank you for taking the time to read! Enjoy!** 
