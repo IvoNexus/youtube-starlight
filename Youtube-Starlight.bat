@@ -648,7 +648,7 @@ echo      github.com/IvoNexus/youtube-starlight
 echo.
 echo      Licensed under GNU GPLv3
 echo      Version 0.2 - 07-18-2022
-echo      Written by #IvoNexus
+echo      Written by #IvoNexus aka Specter
 echo.
 echo ===============================================
 echo.
