@@ -1,6 +1,6 @@
 # Directory
 ./core/config.ini
 ./core/ffmpeg.exe
-./core/youtube.exe
+./core/youtube-dl.exe
 
 DO NOT remove this directory.
