@@ -45,7 +45,7 @@ echo                                                     :`...........':
 echo                                                     ` :`.     .': '                                                 
 echo                                                      `:  `"""'  :'
 echo                                                    Youtube-Starlight
-echo                                                         Specter
+echo                                                        #IvoNexus
 echo.
 echo                                                        Loading..
 timeout 4 >nul
@@ -647,7 +647,8 @@ echo.
 echo      github.com/IvoNexus/youtube-starlight
 echo.
 echo      Licensed under GNU GPLv3
-echo      Written by Specter, version 0.2
+echo      Version 0.2 - 07-18-2022
+echo      Written by #IvoNexus
 echo.
 echo ===============================================
 echo.
