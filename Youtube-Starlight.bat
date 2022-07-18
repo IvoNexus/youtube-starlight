@@ -658,11 +658,10 @@ goto MENU
 DEL .\core\config.ini
 echo color=0c> .\core\config.ini
 echo color_n=Red>> .\core\config.ini
-echo app_dir=%cd%>> .\core\config.ini
 echo atype=m4a>> .\core\config.ini
 echo vtype=136>> .\core\config.ini
 echo dtype=file>> .\core\config.ini
-echo fork=YT-DLP>> .\core\config.ini
+echo fork=youtube-dl>> .\core\config.ini
 echo ffmpeg_mode=VBR>> .\core\config.ini
 echo ffmpeg_mp3=yes>> .\core\config.ini
 echo vid_audio=yes>> .\core\config.ini
