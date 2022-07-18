@@ -42,7 +42,7 @@ This application was made for testing purposes only and not intended to infringe
 ## :shield: Security
 This application is provided in plain source code, therefore can be easily modified, so some precautions have to be taken in mind:
 * Always download from the official release repo/s.
-* Always check the [MD5](https://en.wikipedia.org/wiki/MD5) checksum of downloaded files.
+* Always check the [MD5](https://en.wikipedia.org/wiki/MD5) and/or [SHA256](https://en.wikipedia.org/wiki/SHA-2) checksums of downloaded files.
 * This application will never ask you for Admin/SU privileges.
 
 Check MD5 and SHA256 checksums via cmd:
