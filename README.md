@@ -12,7 +12,7 @@ This batch script, takes advantage of youtube-dl or any of it's forks and ffmpeg
 
 ## :toolbox: Requirements
 * youtube-dl application is required - [GitHub](https://github.com/ytdl-org/youtube-dl) / [Website](https://youtube-dl.org/)
-    * yt-dlp [GitHub](https://github.com/yt-dlp/yt-dlp)
+    * yt-dlp - [GitHub](https://github.com/yt-dlp/yt-dlp)
 * ffmpeg application is required - [GitHub](https://github.com/FFmpeg/FFmpeg) / [Website](https://ffmpeg.org/)
 * Windows OS. (fully tested on Windows 10 and 11)
 
