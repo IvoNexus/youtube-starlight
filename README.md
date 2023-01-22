@@ -1,4 +1,4 @@
-# :dizzy: Youtube-Starlight
+# :dizzy: YT-Starlight
 This is the release repository for Yotube-Starlight, an easy to use youtube-dl and ffmpeg add-on for Windows.
 
 ## :page_facing_up: Description
