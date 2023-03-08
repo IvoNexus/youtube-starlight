@@ -1,5 +1,5 @@
 # :dizzy: YT-Starlight
-This is the release repository for Yotube-Starlight, an easy to use youtube-dl and ffmpeg add-on for Windows.
+This is the release repository for YT-Starlight, an easy to use youtube-dl and ffmpeg add-on for Windows.
 
 Linux edition can be found here - https://github.com/IvoNexus/yt-starlight-lnx
 
@@ -7,12 +7,7 @@ Linux edition can be found here - https://github.com/IvoNexus/yt-starlight-lnx
 This batch script, takes advantage of youtube-dl or any of it's forks and ffmpeg to provide you, with easy to use functionality to download digital assets in various  formats, resolutions and bitrates.
 
 ## :pill: Version History
-* 0.3
-    * 03-08-2023 Fixed issue with VBR/CBR option.
-* 0.2
-    * 07-18-2022 Public Release
-* 0.1
-    * Initial Private Release
+* Since it's work in progress, I decided to remove versioning and releases. Just git clone the repo.
 
 ## :toolbox: Requirements
 * youtube-dl application is required - [GitHub](https://github.com/ytdl-org/youtube-dl) / [Website](https://youtube-dl.org/)
