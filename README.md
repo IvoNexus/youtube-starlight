@@ -5,6 +5,8 @@ This is the release repository for Yotube-Starlight, an easy to use youtube-dl a
 This batch script, takes advantage of youtube-dl or any of it's forks and ffmpeg to provide you, with easy to use functionality to download digital assets in various  formats, resolutions and bitrates.
 
 ## :pill: Version History
+* 0.3
+    * 03-08-2023 Fixed issue with VBR/CBR option.
 * 0.2
     * 07-18-2022 Public Release
 * 0.1
