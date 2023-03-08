@@ -17,7 +17,7 @@ if %%a==tmp_dir set tmp_dir=%%b
 
 set app_dir=%cd%
 set ffmpeg_vbr=4
-set ffmpeg_cbr=96k
+set ffmpeg_cbr=128k
 color %color%
 
 :START
@@ -177,7 +177,11 @@ set /p link="Enter URL: "
 cls
 echo [youtube] Downloading %link% please wait.
 %app_dir%\core\%fork%.exe -f %atype% %link% --output %tmp_dir%%%(title)s.%%(ext)s
-for %%i in (.\tmp\*.m4a) do (.\core\ffmpeg.exe -i "%%i" -c:a libmp3lame -q:a 4 "%downld_dir%%%~ni.mp3")
+if %ffmpeg_mode%==VBR (
+    for %%i in (.\tmp\*.m4a) do (.\core\ffmpeg.exe -i "%%i" -c:a libmp3lame -q:a %ffmpeg_vbr% "%downld_dir%%%~ni.mp3")
+) else (
+    for %%i in (.\tmp\*.m4a) do (.\core\ffmpeg.exe -i "%%i" -c:a libmp3lame -b:a %ffmpeg_cbr% "%downld_dir%%%~ni.mp3")
+)
 del /q %tmp_dir%*.*
 echo.
 echo Download complete!
@@ -662,7 +666,7 @@ echo color_n=Red>> .\core\config.ini
 echo atype=m4a>> .\core\config.ini
 echo vtype=136>> .\core\config.ini
 echo dtype=file>> .\core\config.ini
-echo fork=youtube-dl>> .\core\config.ini
+echo fork=yt-dlp>> .\core\config.ini
 echo ffmpeg_mode=VBR>> .\core\config.ini
 echo ffmpeg_mp3=yes>> .\core\config.ini
 echo vid_audio=yes>> .\core\config.ini
