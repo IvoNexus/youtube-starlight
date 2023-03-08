@@ -1,7 +1,7 @@
 # :dizzy: YT-Starlight
 This is the release repository for Yotube-Starlight, an easy to use youtube-dl and ffmpeg add-on for Windows.
 
-Windows edtion can be found here - https://github.com/IvoNexus/yt-starlight-wim
+Linux edition can be found here - https://github.com/IvoNexus/yt-starlight-lnx
 
 ## :page_facing_up: Description
 This batch script, takes advantage of youtube-dl or any of it's forks and ffmpeg to provide you, with easy to use functionality to download digital assets in various  formats, resolutions and bitrates.
