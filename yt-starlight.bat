@@ -165,7 +165,7 @@ echo.
 set /p link="Enter URL: "
 cls
 echo [youtube] Downloading %link% please wait.
-%app_dir%\core\%fork%.exe-i -f %atype% --yes-playlist %link% --output %downld_dir%%%(title)s.%%(ext)s
+%app_dir%\core\%fork%.exe -i -f %atype% --yes-playlist %link% --output %downld_dir%%%(title)s.%%(ext)s
 echo.
 echo Download complete!
 pause
